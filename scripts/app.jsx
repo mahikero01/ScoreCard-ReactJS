@@ -1,9 +1,16 @@
+function Header(props) {
+    return (
+        <div className="header">
+            <h1>{props.title}</h1>
+        </div>
+    );
+}
+
 function Application(props) {
     return (
         <div className="scoreboard">
-            <div className="header">
-                <h1>{props.title}</h1>
-            </div>
+            <Header />
+
             <div className="players">
                 <div className="player">
                     <div className="player-name">
