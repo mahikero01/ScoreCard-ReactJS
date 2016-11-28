@@ -7,6 +7,7 @@ function Header(props) {
 }
 
 function Application(props) {
+    
     return (
         <div className="scoreboard">
             <Header />
